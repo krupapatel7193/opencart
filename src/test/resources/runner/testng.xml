@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name="base.CustomListners" />
+</listeners>
+  <test thread-count="5" name="regression">
+    <classes>
+      <class name="testcases.TC001MyAccount"/>
+      </classes>
+     </test>
+     <test name="register">
+     <classes>
+      <class name="testcases.TC002Register"/>
+    </classes>
+  </test>
+   <test name="login">
+     <classes>
+      <class name="testcases.TC003Login"/>
+    </classes>
+  </test>
+  
+   <!-- regression -->
+</suite> <!-- Suite -->

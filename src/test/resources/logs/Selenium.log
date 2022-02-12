@@ -1,0 +1,44 @@
+01:26:28,202 DEBUG qaLogs:39 - loading the config property file
+01:26:29,801 DEBUG qaLogs:46 - chrome browser launched
+01:26:30,799  INFO qaLogs:19 - navigate to login page test started.
+01:26:31,368  INFO qaLogs:25 - test completed.
+01:26:31,384 DEBUG freemarker.cache:45 - Couldn't find template in cache for "Extent.ftl"("en_CA", UTF-8, parsed); will try to load it.
+01:26:31,385 DEBUG freemarker.cache:45 - TemplateLoader.findTemplateSource("Extent_en_CA.ftl"): Not found
+01:26:31,386 DEBUG freemarker.cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+01:26:31,386 DEBUG freemarker.cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+01:26:31,387 DEBUG freemarker.cache:45 - Loading template for "Extent.ftl"("en_CA", UTF-8, parsed) from "jar:file:/C:/Users/krupa/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+01:26:31,533  INFO qaLogs:40 - verifyRegister test started.
+01:26:32,807  INFO qaLogs:49 - verifyRegister1 test completed.
+01:26:32,808 DEBUG freemarker.cache:45 - Couldn't find template in cache for "Extent.ftl"("en_CA", UTF-8, parsed); will try to load it.
+01:26:32,809 DEBUG freemarker.cache:45 - TemplateLoader.findTemplateSource("Extent_en_CA.ftl"): Not found
+01:26:32,809 DEBUG freemarker.cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+01:26:32,809 DEBUG freemarker.cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+01:26:32,810 DEBUG freemarker.cache:45 - Loading template for "Extent.ftl"("en_CA", UTF-8, parsed) from "jar:file:/C:/Users/krupa/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+01:26:32,832  INFO qaLogs:18 - verifyRegister1 test started.
+01:26:34,524  INFO qaLogs:39 - screenshot attached.
+01:26:34,524 DEBUG freemarker.cache:45 - Couldn't find template in cache for "Extent.ftl"("en_CA", UTF-8, parsed); will try to load it.
+01:26:34,524 DEBUG freemarker.cache:45 - TemplateLoader.findTemplateSource("Extent_en_CA.ftl"): Not found
+01:26:34,524 DEBUG freemarker.cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+01:26:34,524 DEBUG freemarker.cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+01:26:34,524 DEBUG freemarker.cache:45 - Loading template for "Extent.ftl"("en_CA", UTF-8, parsed) from "jar:file:/C:/Users/krupa/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+01:26:34,591  INFO qaLogs:19 - verifyLogin1 test started.
+01:26:35,734  INFO qaLogs:34 - verifyLogin1 test complted.
+01:26:35,741 DEBUG freemarker.cache:45 - Couldn't find template in cache for "Extent.ftl"("en_CA", UTF-8, parsed); will try to load it.
+01:26:35,742 DEBUG freemarker.cache:45 - TemplateLoader.findTemplateSource("Extent_en_CA.ftl"): Not found
+01:26:35,742 DEBUG freemarker.cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+01:26:35,742 DEBUG freemarker.cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+01:26:35,742 DEBUG freemarker.cache:45 - Loading template for "Extent.ftl"("en_CA", UTF-8, parsed) from "jar:file:/C:/Users/krupa/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+01:26:35,791  INFO qaLogs:41 - verifyLogin2 test started.
+01:26:36,970  INFO qaLogs:55 - verifyLogin2 test completed.
+01:26:36,970 DEBUG freemarker.cache:45 - Couldn't find template in cache for "Extent.ftl"("en_CA", UTF-8, parsed); will try to load it.
+01:26:36,970 DEBUG freemarker.cache:45 - TemplateLoader.findTemplateSource("Extent_en_CA.ftl"): Not found
+01:26:36,970 DEBUG freemarker.cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+01:26:36,970 DEBUG freemarker.cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+01:26:36,970 DEBUG freemarker.cache:45 - Loading template for "Extent.ftl"("en_CA", UTF-8, parsed) from "jar:file:/C:/Users/krupa/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+01:26:37,009  INFO qaLogs:62 - verifyLogin test started.
+01:26:38,470  INFO qaLogs:75 - verifyLogin test completed.
+01:26:38,470 DEBUG freemarker.cache:45 - Couldn't find template in cache for "Extent.ftl"("en_CA", UTF-8, parsed); will try to load it.
+01:26:38,470 DEBUG freemarker.cache:45 - TemplateLoader.findTemplateSource("Extent_en_CA.ftl"): Not found
+01:26:38,470 DEBUG freemarker.cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+01:26:38,470 DEBUG freemarker.cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+01:26:38,470 DEBUG freemarker.cache:45 - Loading template for "Extent.ftl"("en_CA", UTF-8, parsed) from "jar:file:/C:/Users/krupa/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
