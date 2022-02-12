@@ -51,4 +51,13 @@ public String Alert() {
 }
 
 
+public WebElement User_name() {
+	return username;
+		
+}
+public WebElement Pass_word() {
+		return password;
+	}
+
+
 }

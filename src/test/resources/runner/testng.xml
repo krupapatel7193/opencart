@@ -14,6 +14,11 @@
       <class name="testcases.TC002Register"/>
     </classes>
   </test>
+  <test name="loginfail">
+     <classes>
+      <class name="testcases.DataDriven"/>
+    </classes>
+  </test>
    <test name="login">
      <classes>
       <class name="testcases.TC003Login"/>

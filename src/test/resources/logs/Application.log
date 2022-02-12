@@ -1,14 +1,18 @@
-12/02/2022 08:47:00 qaLogs loading the config property file
-12/02/2022 08:47:02 qaLogs chrome browser launched
-12/02/2022 08:47:03 qaLogs navigate to login page test started.
-12/02/2022 08:47:04 qaLogs test completed.
-12/02/2022 08:47:04 qaLogs verifyRegister test started.
-12/02/2022 08:47:05 qaLogs verifyRegister1 test completed.
-12/02/2022 08:47:05 qaLogs verifyRegister1 test started.
-12/02/2022 08:47:07 qaLogs verifyRegister1 test completed.
-12/02/2022 08:47:07 qaLogs verifyLogin1 test started.
-12/02/2022 08:47:08 qaLogs verifyLogin1 test complted.
-12/02/2022 08:47:08 qaLogs verifyLogin2 test started.
-12/02/2022 08:47:09 qaLogs verifyLogin2 test completed.
-12/02/2022 08:47:09 qaLogs verifyLogin test started.
-12/02/2022 08:47:10 qaLogs verifyLogin test completed.
+12/02/2022 09:17:43 qaLogs loading the config property file
+12/02/2022 09:17:44 qaLogs chrome browser launched
+12/02/2022 09:17:45 qaLogs navigate to login page test started.
+12/02/2022 09:17:46 qaLogs test completed.
+12/02/2022 09:17:46 qaLogs verifyRegister test started.
+12/02/2022 09:17:47 qaLogs verifyRegister1 test completed.
+12/02/2022 09:17:47 qaLogs verifyRegister1 test started.
+12/02/2022 09:17:49 qaLogs verifyRegister1 test completed.
+12/02/2022 09:17:49 qaLogs verifyLogin test started.
+12/02/2022 09:17:50 qaLogs verifyLogin test completed.
+12/02/2022 09:17:50 qaLogs verifyLogin test started.
+12/02/2022 09:17:51 qaLogs verifyLogin test completed.
+12/02/2022 09:17:51 qaLogs verifyLogin1 test started.
+12/02/2022 09:17:52 qaLogs verifyLogin1 test complted.
+12/02/2022 09:17:52 qaLogs verifyLogin2 test started.
+12/02/2022 09:17:53 qaLogs verifyLogin2 test completed.
+12/02/2022 09:17:53 qaLogs verifyLogin test started.
+12/02/2022 09:17:55 qaLogs verifyLogin test completed.

@@ -1,66 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-02-11T21:29:26Z" name="Default suite" finished-at="2022-02-11T21:29:28Z" duration-ms="2352">
+  <suite name="Default suite" duration-ms="2291" started-at="2022-02-12T14:14:58Z" finished-at="2022-02-12T14:15:01Z">
     <groups>
     </groups>
-    <test started-at="2022-02-11T21:29:26Z" name="Default test" finished-at="2022-02-11T21:29:28Z" duration-ms="2352">
-      <class name="testcases.TC003Login">
-        <test-method is-config="true" signature="Initialize()[pri:0, instance:testcases.TC003Login@7d3d101b]" started-at="2022-02-11T21:29:24Z" name="Initialize" finished-at="2022-02-11T21:29:26Z" duration-ms="2357" status="PASS">
+    <test name="Default test" duration-ms="2291" started-at="2022-02-12T14:14:58Z" finished-at="2022-02-12T14:15:01Z">
+      <class name="testcases.DataDriven">
+        <test-method status="PASS" signature="Initialize()[pri:0, instance:testcases.DataDriven@443118b0]" name="Initialize" is-config="true" duration-ms="2139" started-at="2022-02-12T14:14:56Z" finished-at="2022-02-12T14:14:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Initialize -->
-        <test-method signature="verifyLogin1()[pri:1, instance:testcases.TC003Login@7d3d101b]" started-at="2022-02-11T21:29:26Z" name="verifyLogin1" finished-at="2022-02-11T21:29:27Z" duration-ms="1229" status="PASS">
+        <test-method status="PASS" signature="testcaseData(java.lang.String, java.lang.String)[pri:0, instance:testcases.DataDriven@443118b0]" name="testcaseData" duration-ms="1210" started-at="2022-02-12T14:14:58Z" data-provider="testdata" finished-at="2022-02-12T14:15:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyLogin1 -->
-        <test-method signature="verifyLogin2()[pri:2, instance:testcases.TC003Login@7d3d101b]" started-at="2022-02-11T21:29:27Z" name="verifyLogin2" finished-at="2022-02-11T21:29:28Z" duration-ms="1101" status="PASS">
+        </test-method> <!-- testcaseData -->
+        <test-method status="PASS" signature="testcaseData(java.lang.String, java.lang.String)[pri:0, instance:testcases.DataDriven@443118b0]" name="testcaseData" duration-ms="1064" started-at="2022-02-12T14:15:00Z" data-provider="testdata" finished-at="2022-02-12T14:15:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tye]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[tutorial]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyLogin2 -->
-        <test-method signature="verifyLogin(java.lang.String, java.lang.String)[pri:3, instance:testcases.TC003Login@7d3d101b]" started-at="2022-02-11T21:29:28Z" name="verifyLogin" data-provider="dp" finished-at="2022-02-11T21:29:28Z" duration-ms="0" status="FAIL">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Method public void testcases.TC003Login.verifyLogin(java.lang.String,java.lang.String) requires a @DataProvider named : dp]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Method public void testcases.TC003Login.verifyLogin(java.lang.String,java.lang.String) requires a @DataProvider named : dp
-at org.testng.internal.Parameters.findDataProvider(Parameters.java:513)
-at org.testng.internal.Parameters.handleParameters(Parameters.java:691)
-at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:49)
-at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:37)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:924)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC003Login@7d3d101b]" started-at="2022-02-11T21:29:28Z" name="tearDown" finished-at="2022-02-11T21:29:29Z" duration-ms="714" status="PASS">
+        </test-method> <!-- testcaseData -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.DataDriven@443118b0]" name="tearDown" is-config="true" duration-ms="58" started-at="2022-02-12T14:15:01Z" finished-at="2022-02-12T14:15:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testcases.TC003Login -->
+      </class> <!-- testcases.DataDriven -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

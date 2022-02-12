@@ -54,7 +54,7 @@
                 </li>
                 <li>
                   <a href="#" class="navigator-link " panel-name="testlist-Suite">
-                    <span class="test-stats">3 tests</span>
+                    <span class="test-stats">4 tests</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">6 methods,   6 passed</span>
+                    <span class="method-stats">8 methods,   8 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,6 +103,16 @@
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testcases.TC001MyAccount" hash-for-method="openLoginPage">openLoginPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testcases.DataDriven" hash-for-method="testcaseData(username, password)">testcaseData(username, password)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testcases.DataDriven" hash-for-method="testcaseData(Tye, tutorial)">testcaseData(Tye, tutorial)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -167,21 +177,6 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">testcases.TC001MyAccount</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="openLoginPage">
-                  </a> <!-- openLoginPage -->
-                  <span class="method-name">openLoginPage</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
               <span class="class-name">testcases.TC003Login</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -204,6 +199,45 @@
                   <a name="verifyLogin2">
                   </a> <!-- verifyLogin2 -->
                   <span class="method-name">verifyLogin2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.TC001MyAccount</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="openLoginPage">
+                  </a> <!-- openLoginPage -->
+                  <span class="method-name">openLoginPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.DataDriven</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcaseData(username, password)">
+                  </a> <!-- testcaseData(username, password) -->
+                  <span class="method-name">testcaseData</span>
+                  <span class="parameters">(username, password)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcaseData(Tye, tutorial)">
+                  </a> <!-- testcaseData(Tye, tutorial) -->
+                  <span class="method-name">testcaseData</span>
+                  <span class="parameters">(Tye, tutorial)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -231,6 +265,11 @@
       &lt;class name=&quot;testcases.TC002Register&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- register --&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;loginfail&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcases.DataDriven&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- loginfail --&gt;
   &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;login&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;testcases.TC003Login&quot;/&gt;
@@ -251,6 +290,9 @@
               </li>
               <li>
                 <span class="test-name">register (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">loginfail (1 class)</span>
               </li>
               <li>
                 <span class="test-name">login (1 class)</span>
@@ -279,36 +321,44 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(6);
+data.addRows(8);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'verifyRegister1')
+data.setCell(0, 1, 'verifyRegister')
 data.setCell(0, 2, 'testcases.TC002Register')
-data.setCell(0, 3, 1494);
+data.setCell(0, 3, 1602);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'verifyLogin')
 data.setCell(1, 2, 'testcases.TC003Login')
-data.setCell(1, 3, 1472);
+data.setCell(1, 3, 1388);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'verifyRegister')
+data.setCell(2, 1, 'verifyRegister1')
 data.setCell(2, 2, 'testcases.TC002Register')
-data.setCell(2, 3, 1285);
+data.setCell(2, 3, 1385);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'verifyLogin1')
-data.setCell(3, 2, 'testcases.TC003Login')
-data.setCell(3, 3, 1176);
+data.setCell(3, 1, 'testcaseData')
+data.setCell(3, 2, 'testcases.DataDriven')
+data.setCell(3, 3, 1125);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'verifyLogin2')
 data.setCell(4, 2, 'testcases.TC003Login')
-data.setCell(4, 3, 1102);
+data.setCell(4, 3, 1125);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'openLoginPage')
-data.setCell(5, 2, 'testcases.TC001MyAccount')
-data.setCell(5, 3, 644);
+data.setCell(5, 1, 'testcaseData')
+data.setCell(5, 2, 'testcases.DataDriven')
+data.setCell(5, 3, 1071);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifyLogin1')
+data.setCell(6, 2, 'testcases.TC003Login')
+data.setCell(6, 3, 1039);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'openLoginPage')
+data.setCell(7, 2, 'testcases.TC001MyAccount')
+data.setCell(7, 3, 498);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 7 seconds</span>
+              <span class="suite-total-time">Total running time: 9 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -344,37 +394,48 @@ return data;
               <div class="chronological-class-name">testcases.TC001MyAccount</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">openLoginPage</span>
-                <span class="method-start">2590 ms</span>
+                <span class="method-start">2280 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testcases.TC002Register</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">verifyRegister</span>
-                <span class="method-start">3388 ms</span>
+                <span class="method-start">2944 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyRegister1</span>
-                <span class="method-start">4696 ms</span>
+                <span class="method-start">4570 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.DataDriven</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testcaseData(username, password)</span>
+                <span class="method-start">5974 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testcaseData(Tye, tutorial)</span>
+                <span class="method-start">7117 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testcases.TC003Login</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">verifyLogin1</span>
-                <span class="method-start">6209 ms</span>
+                <span class="method-start">8216 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyLogin2</span>
-                <span class="method-start">7419 ms</span>
+                <span class="method-start">9278 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyLogin</span>
-                <span class="method-start">8557 ms</span>
+                <span class="method-start">10428 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-suite after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">10062 ms</span>
+                <span class="method-start">11842 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
