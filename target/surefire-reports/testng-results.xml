@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="1" ignored="0" total="6" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="7722" started-at="2022-02-12T06:26:30Z" finished-at="2022-02-12T06:26:38Z">
+  <suite name="Suite" duration-ms="7244" started-at="2022-02-12T12:35:56Z" finished-at="2022-02-12T12:36:03Z">
     <groups>
     </groups>
-    <test name="regression" duration-ms="738" started-at="2022-02-12T06:26:30Z" finished-at="2022-02-12T06:26:31Z">
+    <test name="regression" duration-ms="707" started-at="2022-02-12T12:35:56Z" finished-at="2022-02-12T12:35:56Z">
       <class name="testcases.TC001MyAccount">
-        <test-method status="PASS" signature="openLoginPage()[pri:0, instance:testcases.TC001MyAccount@2d8f65a4]" name="openLoginPage" duration-ms="572" started-at="2022-02-12T06:26:30Z" finished-at="2022-02-12T06:26:31Z">
+        <test-method status="PASS" signature="openLoginPage()[pri:0, instance:testcases.TC001MyAccount@2d8f65a4]" name="openLoginPage" duration-ms="554" started-at="2022-02-12T12:35:56Z" finished-at="2022-02-12T12:35:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openLoginPage -->
       </class> <!-- testcases.TC001MyAccount -->
     </test> <!-- regression -->
-    <test name="register" duration-ms="3041" started-at="2022-02-12T06:26:31Z" finished-at="2022-02-12T06:26:34Z">
+    <test name="register" duration-ms="2828" started-at="2022-02-12T12:35:56Z" finished-at="2022-02-12T12:35:59Z">
       <class name="testcases.TC002Register">
-        <test-method status="PASS" signature="verifyRegister()[pri:1, instance:testcases.TC002Register@69a3d1d]" name="verifyRegister" duration-ms="1276" started-at="2022-02-12T06:26:31Z" finished-at="2022-02-12T06:26:32Z">
+        <test-method status="PASS" signature="verifyRegister()[pri:1, instance:testcases.TC002Register@69a3d1d]" name="verifyRegister" duration-ms="1147" started-at="2022-02-12T12:35:56Z" finished-at="2022-02-12T12:35:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyRegister -->
-        <test-method status="FAIL" signature="verifyRegister1()[pri:2, instance:testcases.TC002Register@69a3d1d]" name="verifyRegister1" duration-ms="1509" started-at="2022-02-12T06:26:32Z" finished-at="2022-02-12T06:26:34Z">
+        <test-method status="FAIL" signature="verifyRegister1()[pri:2, instance:testcases.TC002Register@69a3d1d]" name="verifyRegister1" duration-ms="1494" started-at="2022-02-12T12:35:57Z" finished-at="2022-02-12T12:35:59Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [Warning: You must agree to the Privacy Policy!] but found [Warning: You must agree to the Privacy Polic!]]]>
@@ -70,25 +70,25 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
         </test-method> <!-- verifyRegister1 -->
       </class> <!-- testcases.TC002Register -->
     </test> <!-- register -->
-    <test name="login" duration-ms="3919" started-at="2022-02-12T06:26:34Z" finished-at="2022-02-12T06:26:38Z">
+    <test name="login" duration-ms="3696" started-at="2022-02-12T12:35:59Z" finished-at="2022-02-12T12:36:03Z">
       <class name="testcases.TC003Login">
-        <test-method status="PASS" signature="Initialize()[pri:0, instance:testcases.TC003Login@3dfc5fb8]" name="Initialize" is-config="true" duration-ms="2591" started-at="2022-02-12T06:26:28Z" finished-at="2022-02-12T06:26:30Z">
+        <test-method status="PASS" signature="Initialize()[pri:0, instance:testcases.TC003Login@3dfc5fb8]" name="Initialize" is-config="true" duration-ms="2399" started-at="2022-02-12T12:35:53Z" finished-at="2022-02-12T12:35:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Initialize -->
-        <test-method status="PASS" signature="verifyLogin1()[pri:1, instance:testcases.TC003Login@3dfc5fb8]" name="verifyLogin1" duration-ms="1143" started-at="2022-02-12T06:26:34Z" finished-at="2022-02-12T06:26:35Z">
+        <test-method status="PASS" signature="verifyLogin1()[pri:1, instance:testcases.TC003Login@3dfc5fb8]" name="verifyLogin1" duration-ms="1130" started-at="2022-02-12T12:35:59Z" finished-at="2022-02-12T12:36:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLogin1 -->
-        <test-method status="PASS" signature="verifyLogin2()[pri:2, instance:testcases.TC003Login@3dfc5fb8]" name="verifyLogin2" duration-ms="1186" started-at="2022-02-12T06:26:35Z" finished-at="2022-02-12T06:26:36Z">
+        <test-method status="PASS" signature="verifyLogin2()[pri:2, instance:testcases.TC003Login@3dfc5fb8]" name="verifyLogin2" duration-ms="1094" started-at="2022-02-12T12:36:00Z" finished-at="2022-02-12T12:36:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLogin2 -->
-        <test-method status="PASS" signature="verifyLogin()[pri:3, instance:testcases.TC003Login@3dfc5fb8]" name="verifyLogin" duration-ms="1461" started-at="2022-02-12T06:26:37Z" finished-at="2022-02-12T06:26:38Z">
+        <test-method status="PASS" signature="verifyLogin()[pri:3, instance:testcases.TC003Login@3dfc5fb8]" name="verifyLogin" duration-ms="1382" started-at="2022-02-12T12:36:01Z" finished-at="2022-02-12T12:36:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLogin -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.TC003Login@3dfc5fb8]" name="tearDown" is-config="true" duration-ms="69" started-at="2022-02-12T06:26:38Z" finished-at="2022-02-12T06:26:38Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.TC003Login@3dfc5fb8]" name="tearDown" is-config="true" duration-ms="48" started-at="2022-02-12T12:36:03Z" finished-at="2022-02-12T12:36:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

@@ -23,7 +23,7 @@ import utilities.Xls_Reader;
 public class BaseClass {
 	public static  WebDriver driver=null;;
 	public static Properties pro;
-	public ExtentReports rep = ExtentManager.getInstance();//to generate the report
+	public static ExtentReports rep = ExtentManager.getInstance();//to generate the report
 	public static ExtentTest test;  //to generate log test step
 	public static Logger app_logs = Logger.getLogger("qaLogs"); 
 	public static Xls_Reader excel = null; 
