@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Suite">
-              <span class="suite-name border-failed">Suite</span>
+              <span class="suite-name border-passed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,21 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">6 methods, 1 failed,   5 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
-                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
-                    </span>
-                    <div class="method-list-content failed suite-Suite">
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testcases.TC002Register" hash-for-method="verifyRegister1">verifyRegister1</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-Suite -->
+                    <span class="method-stats">6 methods,   6 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -139,6 +125,11 @@
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testcases.TC002Register" hash-for-method="verifyRegister">verifyRegister</a> <!-- method navigator-link -->
                       </span>
                       <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testcases.TC002Register" hash-for-method="verifyRegister1">verifyRegister1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
                   </li>
                 </ul>
@@ -151,25 +142,6 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">testcases.TC002Register</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyRegister1">
-                  </a> <!-- verifyRegister1 -->
-                  <span class="method-name">verifyRegister1</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected [Warning: You must agree to the Privacy Policy!] but found [Warning: You must agree to the Privacy Polic!]
-	at testcases.TC002Register.verifyRegister1(TC002Register.java:29)
-... Removed 35 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-failed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -181,6 +153,13 @@
                   <a name="verifyRegister">
                   </a> <!-- verifyRegister -->
                   <span class="method-name">verifyRegister</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyRegister1">
+                  </a> <!-- verifyRegister1 -->
+                  <span class="method-name">verifyRegister1</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -304,27 +283,27 @@ data.addRows(6);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'verifyRegister1')
 data.setCell(0, 2, 'testcases.TC002Register')
-data.setCell(0, 3, 1494);
+data.setCell(0, 3, 1395);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'verifyLogin')
 data.setCell(1, 2, 'testcases.TC003Login')
-data.setCell(1, 3, 1382);
+data.setCell(1, 3, 1348);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'verifyRegister')
 data.setCell(2, 2, 'testcases.TC002Register')
-data.setCell(2, 3, 1147);
+data.setCell(2, 3, 1260);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'verifyLogin1')
 data.setCell(3, 2, 'testcases.TC003Login')
-data.setCell(3, 3, 1130);
+data.setCell(3, 3, 1086);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'verifyLogin2')
 data.setCell(4, 2, 'testcases.TC003Login')
-data.setCell(4, 3, 1094);
+data.setCell(4, 3, 1084);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'openLoginPage')
 data.setCell(5, 2, 'testcases.TC001MyAccount')
-data.setCell(5, 3, 554);
+data.setCell(5, 3, 541);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
@@ -365,39 +344,37 @@ return data;
               <div class="chronological-class-name">testcases.TC001MyAccount</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">openLoginPage</span>
-                <span class="method-start">2408 ms</span>
+                <span class="method-start">2342 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testcases.TC002Register</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">verifyRegister</span>
-                <span class="method-start">3113 ms</span>
+                <span class="method-start">3052 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">verifyRegister1</span>
-                <span class="method-start">4285 ms</span>
+                <span class="method-start">4336 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testcases.TC003Login</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">verifyLogin1</span>
-                <span class="method-start">5947 ms</span>
+                <span class="method-start">5750 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyLogin2</span>
-                <span class="method-start">7114 ms</span>
+                <span class="method-start">6865 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyLogin</span>
-                <span class="method-start">8232 ms</span>
+                <span class="method-start">7986 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-suite after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">9648 ms</span>
+                <span class="method-start">9363 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

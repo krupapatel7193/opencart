@@ -23,7 +23,7 @@ public class TC002Register extends BaseClass {
 		r1.doRegister("username", "username", "xyz@gmail.com", "123456789", "password", "password");
 		test.log(LogStatus.INFO, "click on submit button");
 		r1.doDisagree();
-		String Expected="Warning: You must agree to the Privacy Polic!";
+		String Expected="Warning: You must agree to the Privacy Policy!";
 		//String Actual=r1.checkText();
 		System.out.println(r1.checkText());
 		Assert.assertEquals(Expected, r1.checkText());
